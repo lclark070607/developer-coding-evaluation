@@ -1,0 +1,10 @@
+$body-bg: blue;
+
+body {
+    background: $body-bg;
+}
+
+h1 {
+    border: 1px solid black;
+    filter: blur(20px);
+}
