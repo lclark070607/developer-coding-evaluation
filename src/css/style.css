@@ -1,7 +1,83 @@
-body {
-  background: blue; }
+#hero {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(4, 102, 159, 0.9)), to(rgba(4, 102, 159, 0.9))), url("../assets/images/pic-fifththird-hero.jpg");
+  background: linear-gradient(0deg, rgba(4, 102, 159, 0.9), rgba(4, 102, 159, 0.9)), url("../assets/images/pic-fifththird-hero.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; }
+  #hero .hero-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    #hero .hero-content .logo {
+      margin: 60px; }
+    #hero .hero-content .title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      line-height: 1.6; }
+      #hero .hero-content .title h1 {
+        color: white;
+        font-size: 2.5rem;
+        font-weight: normal;
+        font-style: normal;
+        font-family: 'efframedium';
+        text-align: center; }
 
-h1 {
-  border: 1px solid black;
-  -webkit-filter: blur(20px);
-          filter: blur(20px); }
+section {
+  background-color: lightgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px; }
+
+.box {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  display: inline-block; }
+  .box .title {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'efframedium';
+    font-size: 1.2rem; }
+  .box .text {
+    line-height: 1.75;
+    font-family: 'effraregular';
+    color: #545454; }
+
+#iot {
+  background: url("../assets/images/pic-gojo-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#mobile-app {
+  background: url("../assets/images/pic-fifththird-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+footer {
+  background-color: grey;
+  color: #000;
+  margin: 0; }
+
+body {
+  margin: 0; }

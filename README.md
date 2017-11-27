@@ -41,3 +41,13 @@ Once complete, your site should be deployed to Github Pages.
 ### Extra Points (10 points)
 - **Build System (0-5)** <br /> Using a task runner like Gulp or Webpack can be used to automate optimizations and creating production-ready files. The source files should be kept separate for evaluation.
 - **Pre-Processor (0-5)** <br /> A CSS pre-processor like Sass, Less, or Stylus can be used to streamline your CSS. Original source files must be provided.
+
+Louise Clark Notes:
+
+For optimization purposes concerning Flexbox I used Autoprefixer in my Gulp workflow.  This is how I was taught to add the prefixes and optimize for Flexbox.  Honestly, I don't know how to code from scratch the various website variations.  I did want to optimize the site for this issue however, as flexbox is not always accessible on older and different browsers.
+
+I used a font face generator for the given fonts so that they could be generated for cross browsing optimization.  Like the autoprefixer, I don't know how to write this code from scratch.  I do know that it is important to use fonts that are available for all the different browsers.
+
+
+
+

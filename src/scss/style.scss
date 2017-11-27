@@ -1,10 +1,13 @@
-$body-bg: blue;
+
+@import 'hero';
+@import 'values-row';
+@import 'logos-row';
+@import 'iot-row';
+@import 'mobile-row';
+@import 'digital-row';
+@import 'connect-form';
+@import 'footer';
 
 body {
-    background: $body-bg;
-}
-
-h1 {
-    border: 1px solid black;
-    filter: blur(20px);
+    margin: 0;
 }

@@ -1,0 +1,38 @@
+#hero {
+    background: linear-gradient(0deg, rgba(4, 102, 159, 0.9), rgba(4, 102, 159, 0.9)), url('../assets/images/pic-fifththird-hero.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+    
+        .logo {
+            margin: 60px;
+            // position: absolute;
+            }
+    
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1.6;
+            
+            h1 {
+                color: white;
+                font-size: 2.5rem;
+                font-weight: normal;
+                font-style: normal;
+                font-family: 'efframedium';
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+   
