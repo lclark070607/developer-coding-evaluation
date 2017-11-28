@@ -48,7 +48,9 @@ For optimization purposes concerning Flexbox I used Autoprefixer in my Gulp work
 
 I used a font face generator for the given fonts so that they could be generated for cross browsing optimization.  Like the autoprefixer, I don't know how to write this code from scratch.  I do know that it is important to use fonts that are available for all the different browsers.
 
-I realize that I should design for mobile first.  It bothers me tremendously when things are not designed for all users and their iot devices.  This is especially true for those living in third world countries - many don't have laptops but, instead, rely on mobile devices.  However, mobile first design is not a priority for my company and is not something I'm getting training or support in.  I REALLY want to learn this skill well.
+I realize that I should design for mobile first.  It bothers me tremendously when things are not designed for all users and their iot devices.  This is especially true for those living in third world countries - many don't have laptops but, instead, rely on mobile devices.  However, mobile first design is not a priority for my job and is not something I'm getting training in.  I REALLY want to learn this skill well.
+
+Most of my training over the past year has relied on designing with either the Foundation or Bootstrap frameworks.  Luckily for me, my current boss recently had me research Flexbox as he was considering building our our design system without Bootstrap.
 
 
 
