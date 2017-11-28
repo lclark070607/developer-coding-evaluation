@@ -42,7 +42,7 @@
                     <img src="/assets/icons/icon-bi.svg" alt="Business Intelligence Icon">
                 </div>
                 <div class="value-text">
-                    <p class="title">Business Intelligence</p>
+                    <h3 class="title">Business Intelligence</h3>
                     <p class="text">We use technology to turn data into knowledge that can help you manage and monitor your business, from
                         anywhere.
                     </p>
@@ -53,7 +53,7 @@
             <div class="header">
                 <img src="/assets/icons/icon-appdev.svg" alt="Business Intelligence Icon">
                 <div class="value-text">
-                    <p class="title">App Development</p>
+                    <h3 class="title">App Development</h3>
                     <p class="text">Our mobile specialists work to create rich, easy-to-use consumer or enterprise experiences for iOS, Android.</p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="header">
                 <img src="/assets/icons/icon-ba.svg" alt="Business Intelligence Icon">
                 <div class="value-text">
-                    <p class="title">Business Analysis</p>
+                    <h3 class="title">Business Analysis</h3>
                     <p class="text">Great strategy begins with listening. We learn about businesses from inside out, and then propose improvements.</p>
                 </div>
             </div>
@@ -110,7 +110,7 @@
                 <h3 class="iot-title">Gojo</h3>
                 <small class="iot-subtitle">INTERNET OF THINGS</small>
                 <p class="iot-text">Reducing the spread of hospital infections with the Internet of Things.</p>
-                <button class="learnbtn">Learn More</button>
+                <button type="button" class="learnbtn">Learn More</button>
             </div>
         </div>
     </section>
@@ -122,7 +122,7 @@
                 <h3 class="mobile-title">Fifth Third Bank</h3>
                 <small class="mobile-subtitle">MOBILE APP</small>
                 <p class="mobile-text">Reimagine what a mobile banking experience should be, focusing on the user rather than the technology.</p>
-                <button class="viewbtn">View App</button>
+                <button type="button" class="viewbtn">View App</button>
             </div>
         </div>
         <div class="photo">
@@ -140,7 +140,7 @@
                 <h3 class="digital-title">The Christ Hospital Health Network</h3>
                 <small class="digital-subtitle">DIGITAL PLATFORM</small>
                 <p class="digital-text">A digital front door to the finest patient experiences.</p>
-                <button class="learnbtn2">Learn More</button>
+                <button type="button" class="learnbtn2">Learn More</button>
             </div>
         </div>
     </section>
@@ -148,32 +148,27 @@
     <!-- Connect Form Row -->
     <section id="connect-form">
         <div class="form-body">
-            <!-- <ul> -->
-            <!-- <li> -->
-            <p class="form-title">Connect With Us</p>
-            <!-- </li> -->
-            <!-- <li> -->
-            <p class="form-text">Have a question or just want to chat? Get in touch.</p>
-            <!-- </li> -->
-            <!-- </ul> -->
             <div>
-                <form>
-                    <ul class="form-list">
-                        <li>
-                            <input id="name" type="text" placeholder="Name">
-                        </li>
-                        <li>
-                            <input id="email" type="email" placeholder="Email">
-                        </li>
-                        <li>
-                            <textarea id="message" placeholder="Message"></textarea>
-                        </li>
-                        <li>
-                            <button type="submit">Submit</button>
-                        </li>
-                    </ul>
-                </form>
+                <p class="form-title">Connect With Us</p>
+                <p class="form-text">Have a question or just want to chat? Get in touch.</p>
             </div>
+            <form>
+                <ul class="form-list">
+                    <li>
+                        <input required id="name" type="text" placeholder="Name">
+                    </li>
+                    <li>
+                        <input required id="email" type="email" placeholder="Email">
+                    </li>
+                    <li>
+                        <textarea id="message" placeholder="Message"></textarea>
+                    </li>
+                    <li>
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
         </div>
 
         <div class="info">
@@ -211,14 +206,9 @@
                         <a href="#">Find parking on our map!</a>
                     </p>
                 </li>
-
-
             </ul>
-
         </div>
-
     </section>
-
 
     <footer>
         <ul class="footer-container">
