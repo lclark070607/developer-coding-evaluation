@@ -93,6 +93,13 @@
                 color: #428bca;
             }
         }
+
+        .iframe {
+            border: solid 1px #ccc;
+            box-shadow: .5px .5px #ccc;
+            border-radius: 2px;
+            width: 62%;
+        }    
     }
 }
 
@@ -102,7 +109,6 @@
         flex-direction: column;
 
         .form-body {
-            // padding: 50px 20px;
             width: 80%;
             align-items: center;
             margin: 0;
@@ -115,6 +121,10 @@
         .info {
             border-left: none;
             justify-content: center;
+
+            .iframe {
+                width: 42%;
+            }
         }
     }
 }

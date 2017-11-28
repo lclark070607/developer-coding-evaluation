@@ -451,6 +451,12 @@
         font-family: 'effrabold'; }
       #connect-form .info li a {
         color: #428bca; }
+    #connect-form .info .iframe {
+      border: solid 1px #ccc;
+      -webkit-box-shadow: .5px .5px #ccc;
+              box-shadow: .5px .5px #ccc;
+      border-radius: 2px;
+      width: 62%; }
 
 @media (max-width: 768px) {
   #connect-form {
@@ -473,7 +479,9 @@
       border-left: none;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; } }
+              justify-content: center; }
+      #connect-form .info .iframe {
+        width: 42%; } }
 
 footer {
   background-color: #ccc;
