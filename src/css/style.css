@@ -107,6 +107,9 @@
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
+      #services .header .icon {
+        -ms-flex-item-align: center;
+            align-self: center; }
       #services .header .value-text {
         text-align: center;
         margin-left: 0; } }
