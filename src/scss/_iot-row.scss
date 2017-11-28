@@ -3,4 +3,73 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    padding-top: 20px;
+
+    .photo {
+        margin: 0 100px;
+    }
+
+    .inner-content {
+        width: 55%;
+        margin-bottom: 50px;
+    }
+
+    .content {
+        display: flex;
+        align-self: center;
+
+        .iot-title {
+            font-family: 'effrabold';
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .iot-subtitle {
+            font-family: 'effrabold';
+            color: #333;
+        }
+
+        .iot-text {
+            font-family: 'effraregular';
+            color: $text-content;
+            line-height: 1.75;
+        }
+
+        .learnbtn {
+            background: #428bca;
+            color: $text-white;
+            font-family: 'effraregular';
+            font-size: 1rem;
+            padding: 10px 30px;
+            border-radius: 2px;
+            border: none;
+            margin-top: 15px;
+        }
+        .learnbtn:hover {
+            background: #3470a2;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #iot {
+        display: flex;
+        flex-direction: column;
+        
+        .photo {
+            img {
+                flex:1;
+                padding: 0;
+                width: 90%;
+                align-self: center;
+            }           
+        } 
+
+        .inner-content {
+            flex: 1;
+            margin-left: 50px;
+            margin-right: 100px;
+        }
+    }   
 }

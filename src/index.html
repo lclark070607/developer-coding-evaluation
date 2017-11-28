@@ -6,124 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cardinal Developer Coding Evaluation</title>
-    <link rel="stylesheet" type="text/css" href="/scss/fonts/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/scss/fonts/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Hero Section -->
+    <!-- <div class="hero-image">
+        <div class="logo">
+            <img src="./assets/logos/logo-cardinal.png" alt="cardinal logo">
+        </div>
+        <div class="hero-text">
+            <h1>Enjoy the proven success
+                <br /> of our experience.</h1>
+        </div>
+    </div> -->
+
     <header id="hero">
         <div class="hero-content">
             <div class="logo">
                 <img src="./assets/logos/logo-cardinal.png" alt="cardinal logo">
             </div>
             <div class="title">
-                <h1>Enjoy the proven success of our experience.</h1>
+                <h1>Enjoy the proven success
+                    <br /> of our experience.</h1>
             </div>
         </div>
     </header>
 
-    <!-- Values Row -->
-    <section>
-        <div class="box box1">
-            <span>
-                <img src="/assets/icons/icon-bi.svg" alt="Business Intelligence Icon">
-            </span>
-            <p class="title">Business Intelligence</p>
-            <div>
-                <p class="text">We use technology to turn data into knowledge that can help you manage and monitor your business, from anywhere.</p>
+    <!-- Services Row -->
+    <section id="services">
+        <div class="box">
+            <div class="header">
+                <div class="icon">
+                    <img src="/assets/icons/icon-bi.svg" alt="Business Intelligence Icon">
+                </div>
+                <div class="value-text">
+                    <p class="title">Business Intelligence</p>
+                    <p class="text">We use technology to turn data into knowledge that can help you manage and monitor your business, from
+                        anywhere.
+                    </p>
+                </div>
             </div>
         </div>
-        <div class="box box2">
-            <span>
-                <img src="/assets/icons/icon-bi.svg" alt="App Development Icon">
-            </span>
-            <p class="title">App Development</p>
-            <p class="text">Our mobile specialists work to create rich, easy-to-use consumer or enterprise experiences for iOS, Android.</p>
+        <div class="box">
+            <div class="header">
+                <img src="/assets/icons/icon-appdev.svg" alt="Business Intelligence Icon">
+                <div class="value-text">
+                    <p class="title">App Development</p>
+                    <p class="text">Our mobile specialists work to create rich, easy-to-use consumer or enterprise experiences for iOS, Android.</p>
+                </div>
+            </div>
         </div>
-        <div class="box box3">
-            <span>
-                <img src="/assets/icons/icon-ba.svg" alt="Business Analysis Icon">
-            </span>
-            <p class="title">Business Analysis</p>
-            <p class="text">Great strategy begins with listening. We learn about businesses from inside out, and then propose improvements.</p>
+        <div class="box">
+            <div class="header">
+                <img src="/assets/icons/icon-ba.svg" alt="Business Intelligence Icon">
+                <div class="value-text">
+                    <p class="title">Business Analysis</p>
+                    <p class="text">Great strategy begins with listening. We learn about businesses from inside out, and then propose improvements.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Logos Row -->
     <section id="logos">
         <div class="container">
-            <div class="box box1">
-                <h3>Our Clients</h3>
-                <p>Over the years, our team has had the distinction of working with variety of brands in different industries. Here is a short list of some of the names we have worked with.</p>
+            <div class="logo-box box1">
+                <h3 class="logo-title">Our Clients</h3>
+                <p class="logo-text">Over the years, our team has had the distinction of working with variety of brands in different industries.
+                    Here is a short list of some of the names we have worked with.</p>
             </div>
-            <div class="box box3">
+            <div class="logo-box">
                 <img src="../assets/logos/logo-fifththird.png" alt="fifth third bank logo">
             </div>
-            <div class="box box4">
-                <img src="../assets/logos/logo-chhn.png" alt="fifth third bank logo">
+            <div class="logo-box">
+                <img src="../assets/logos/logo-chhn.png" alt="christ hospital health network logo">
             </div>
-            <div class="box box5">
-                    <img src="../assets/logos/logo-chs.png" alt="fifth third bank logo">
+        </div>
+        <div class="container2">
+            <div class="logo-box box2">
+                <img src="../assets/logos/logo-chs.png" alt="carolinas healthcare system logo">
             </div>
-            <div class="box box6">
-                    <img src="../assets/logos/logo-skanska.png" alt="fifth third bank logo">
+            <div class="logo-box box2">
+                <img src="../assets/logos/logo-skanska.png" alt="skansa logo">
             </div>
-            <div class="box box7">
-                    <img src="../assets/logos/logo-rackroom.png" alt="fifth third bank logo">
+            <div class="logo-box box2 rack">
+                <img src="../assets/logos/logo-rackroom.png" alt="rack room logo">
             </div>
-            <div class="box box8">
-                    <img src="../assets/logos/logo-p&g.png" alt="fifth third bank logo">
+            <div class="logo-box box2">
+                <img src="../assets/logos/logo-p&g.png" alt="p and g logo">
             </div>
         </div>
     </section>
 
     <!-- Internet of Things Row -->
     <section id="iot">
-        <div class="col1">
+        <div class="photo">
             <img src="../assets/images/pic-gojo.png" alt="cell phone in front of hospital disinfectant">
         </div>
-        <div class="col2">
-            <h3>Gojo</h3>
-            <small>INTERNET OF THINGS</small>
-            <p>Reducing the spread of hospital infections with the Internet of Things.</p>
-            <button>Learn More</button>
+        <div class="content">
+            <div class="inner-content">
+                <h3 class="iot-title">Gojo</h3>
+                <small class="iot-subtitle">INTERNET OF THINGS</small>
+                <p class="iot-text">Reducing the spread of hospital infections with the Internet of Things.</p>
+                <button class="learnbtn">Learn More</button>
+            </div>
         </div>
     </section>
 
     <!-- Mobile App Row -->
     <section id="mobile-app">
-        <div class="col1">
-            <h3>Fifth Third Bank</h3>
-            <small>MOBILE APP</small>
-            <p>Reimagine what a mobile banking experience should be, focusing on the user rather than the technology.</p>
-            <button>View App</button>
+        <div class="content">
+            <div class="inner-content">
+                <h3 class="mobile-title">Fifth Third Bank</h3>
+                <small class="mobile-subtitle">MOBILE APP</small>
+                <p class="mobile-text">Reimagine what a mobile banking experience should be, focusing on the user rather than the technology.</p>
+                <button class="viewbtn">View App</button>
+            </div>
         </div>
-        <div class="col2">
+        <div class="photo">
             <img src="../assets/images/pic-fifththird.png" alt="cell phone with fifth third bank online users menu">
         </div>
     </section>
 
     <!-- Digital Platform Row -->
     <section id="digital-platform">
-        <div class="col1">
-            <img src="../assets/images/pic-chhn.png" alt="cell phone in front of hospital disinfectant">
+        <div class="photo">
+            <img src="../assets/images/pic-chhn.png" alt="desktop ipad iphone displaying CHHN online portal">
         </div>
-        <div class="col2">
-            <h3>The Christ Hospital Health Network</h3>
-            <small>DIGITAL PLATFORM</small>
-            <p>A digital front door to the finest patient experiences.</p>
-            <button>Learn More</button>
+        <div class="content">
+            <div class="inner-content">
+                <h3 class="digital-title">The Christ Hospital Health Network</h3>
+                <small class="digital-subtitle">DIGITAL PLATFORM</small>
+                <p class="digital-text">A digital front door to the finest patient experiences.</p>
+                <button class="learnbtn2">Learn More</button>
+            </div>
         </div>
     </section>
 
     <!-- Connect Form Row -->
     <section id="connect-form">
-        <div class="col1">
-            <div>
-                <h3>Connect With Us</h3>
-                <small>Have a question or just want to chat? Get in touch.</small>
-            </div>
+        <div class="form-body">
+            <!-- <ul> -->
+            <!-- <li> -->
+            <p class="form-title">Connect With Us</p>
+            <!-- </li> -->
+            <!-- <li> -->
+            <p class="form-text">Have a question or just want to chat? Get in touch.</p>
+            <!-- </li> -->
+            <!-- </ul> -->
             <div>
                 <form>
                     <ul class="form-list">
@@ -143,18 +175,45 @@
                 </form>
             </div>
         </div>
-        <div class="col2">
-            <div>
-                <p>For inqueries, please contact:</p>
-                <p>Tracy Thompson</p>
-                <p>tthompson@cardinalsolutions.com</p>
-                <p>704.936.4444</p>
-            </div>
-            <div>
-                <p>Come by our office</p>
-                <p>222 S. Church St. Suite 500,
-                    <br />Charlotte, NC 28202</p>
-            </div>
+
+        <div class="info">
+            <ul class="contact-info">
+                <li>
+                    <p class="info-title">For inqueries, please contact:</p>
+                </li>
+                <li>
+                    <p class="info-text">Tracy Thompson</p>
+                </li>
+                <li>
+                    <p>tthompson@cardinalsolutions.com</p>
+                </li>
+                <li>
+                    <p class="info-title">704.936.4444</p>
+                </li>
+            </ul>
+
+            <ul class="address">
+                <li>
+                    <p class="info-title">Come by our office</p>
+                </li>
+                <li>
+                    <p>222 S. Church St. Suite 500,
+                </li>
+                <li>
+                    <p>Charlotte, NC 28202</p>
+                </li>
+                <li>
+                    <iframe style="border: solid 1px #ccc; border-radius: 2px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.171585265765!2d-80.84846278670393!3d35.22709846235476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a02eff014e21%3A0x74774195387d4fd6!2sCardinal+Solutions+Group!5e0!3m2!1sen!2sus!4v1511823337102"
+                        width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </li>
+                <li>
+                    <p>
+                        <a href="#">Find parking on our map!</a>
+                    </p>
+                </li>
+
+
+            </ul>
 
         </div>
 
@@ -162,7 +221,31 @@
 
 
     <footer>
-        <p>@2016 Cardinal Solutions. All Rights Reserved.</p>
+        <ul class="footer-container">
+            <li>
+                <p class="footer-text">@2016 Cardinal Solutions. All Rights Reserved.</p>
+            </li>
+            <li>
+                <ul class="footer-icons">
+                    <li class="icon">
+                        <a href="#">
+                            <img src="/assets/icons/icon-twitter.svg" alt="twitter icon">
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="#">
+                            <img src="/assets/icons/icon-facebook.svg" alt="facebook icon">
+                        </a>
+                    </li>
+                    <li class="icon">
+                        <a href="#">
+                            <img src="/assets/icons/icon-g+.svg" alt="google plus icon">
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
     </footer>
 
 

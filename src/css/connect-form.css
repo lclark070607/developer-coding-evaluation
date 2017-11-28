@@ -1,0 +1,91 @@
+#connect-form {
+  background: #eee;
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  #connect-form .form-body {
+    margin-right: 70px;
+    width: 55%; }
+    #connect-form .form-body input, #connect-form .form-body textarea {
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-family: 'effralight';
+      border: 1px solid #ced4da;
+      border-radius: 2px;
+      margin-bottom: 10px;
+      width: 100%; }
+    #connect-form .form-body textarea {
+      height: 150px; }
+    #connect-form .form-body .form-title {
+      font-family: 'effraregular';
+      font-size: 1.3rem;
+      color: #545454;
+      text-align: center;
+      margin-bottom: 5px; }
+    #connect-form .form-body .form-text {
+      font-family: 'effraregular';
+      font-size: 1rem;
+      color: #545454;
+      text-align: center; }
+    #connect-form .form-body li {
+      list-style-type: none; }
+      #connect-form .form-body li .info-title {
+        font-family: 'effrabold';
+        color: #333; }
+    #connect-form .form-body button {
+      background: #428bca;
+      color: #fff;
+      font-family: 'effraregular';
+      font-size: 1rem;
+      padding: 10px 30px;
+      border-radius: 2px;
+      border: none; }
+    #connect-form .form-body button:hover {
+      background: #3470a2; }
+  #connect-form .info {
+    border-left: 1px solid #ccc;
+    margin-left: 15px; }
+    #connect-form .info .info-title {
+      font-family: 'effrabold';
+      font-size: 1rem;
+      color: #333; }
+    #connect-form .info .info-text {
+      font-family: 'effraregular';
+      font-size: 1rem;
+      color: #545454; }
+    #connect-form .info li {
+      list-style-type: none; }
+      #connect-form .info li p {
+        font-family: 'effraregular';
+        color: #545454; }
+      #connect-form .info li .info-title {
+        font-family: 'effrabold'; }
+      #connect-form .info li a {
+        color: #428bca; }
+
+@media (max-width: 768px) {
+  #connect-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    #connect-form .form-body {
+      width: 80%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 0; }
+      #connect-form .form-body .form-title {
+        text-align: center; }
+    #connect-form .info {
+      border-left: none;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }

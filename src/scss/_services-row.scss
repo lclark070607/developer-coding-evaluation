@@ -1,0 +1,57 @@
+#services {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+
+    .box {
+        padding: 30px;
+        display: flex;
+
+        .header {
+            display: flex;
+            justify-content: space-evenly;
+
+            .value-text {
+                margin-left: 15px;
+                margin-top: 5px;
+            } 
+
+            img {
+                align-self: flex-start;
+            }
+
+        .title {
+            font-weight: normal;
+            font-style: normal;
+            font-family: 'efframedium';
+            font-size: 1.2rem;
+            margin-top: 0;
+        }
+
+        .text {
+            line-height: 1.75;
+            font-family: 'effraregular';
+            color: $text-content;
+        }
+    }    
+}
+}
+
+@media (max-width: 768px) {
+#services {
+
+    display: flex;
+    flex-direction: column;
+
+    .header {
+        display: flex;
+        flex-direction: column;
+
+        .value-text {
+            text-align: center;
+            margin-left: 0;
+        }
+    }
+}
+}

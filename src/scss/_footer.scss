@@ -1,5 +1,43 @@
 footer {
-    background-color: grey;
-    color: #000;
-    margin: 0;
+    background-color: #ccc;
+    color: #545454;
+    padding: 15px 50px;
+    display: flex;
+
+    .footer-container {
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 0;
+
+        .footer-text {
+            font-family: 'effrabold';
+            color: #545454;
+        }
+
+        .footer-icons {
+            display: flex;
+            padding: 10px 0;
+            flex-direction: row;
+            list-style-type: none;
+            align-items: flex-end;
+
+            .icon {
+                padding: 0 20px;
+            }
+        }    
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+
+        .footer-text {
+            width: 100%;
+            margin: 0;
+        }
+    }
 }

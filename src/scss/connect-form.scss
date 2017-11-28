@@ -1,0 +1,120 @@
+#connect-form {
+    background: #eee;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+
+    .form-body {
+        margin-right: 70px;
+        width: 55%;
+
+        input, textarea {
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-family: 'effralight';
+            border: 1px solid #ced4da;
+            border-radius: 2px;
+            margin-bottom: 10px;
+            width: 100%;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        .form-title {
+            font-family: 'effraregular';
+            font-size: 1.3rem;
+            color: #545454;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .form-text {
+            font-family: 'effraregular';
+            font-size: 1rem;
+            color: #545454;
+            text-align: center;
+        }
+    
+        li {
+            list-style-type: none;
+
+            .info-title {
+                font-family: 'effrabold';
+                color: #333;
+            }
+        }
+    
+        button {
+                background: #428bca;
+                color: #fff;
+                font-family: 'effraregular';
+                font-size: 1rem;
+                padding: 10px 30px;
+                border-radius: 2px;
+                border: none;
+            }
+        
+        button:hover {
+            background: #3470a2;
+        }
+    }
+
+    .info {
+        border-left: 1px solid #ccc;
+        margin-left: 15px;
+
+        .info-title {
+            font-family: 'effrabold';
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .info-text {
+            font-family: 'effraregular';
+            font-size: 1rem;
+            color: #545454;
+        }
+
+        li {
+            list-style-type: none;
+    
+            p {
+                font-family: 'effraregular';
+                color: #545454;
+            }
+    
+            .info-title {
+                font-family: 'effrabold';
+            }
+
+            a {
+                color: #428bca;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #connect-form {
+        display: flex;
+        flex-direction: column;
+
+        .form-body {
+            // padding: 50px 20px;
+            width: 80%;
+            align-items: center;
+            margin: 0;
+
+            .form-title {
+                text-align: center;
+            }
+        }
+
+        .info {
+            border-left: none;
+            justify-content: center;
+        }
+    }
+}

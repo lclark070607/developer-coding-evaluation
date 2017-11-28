@@ -1,0 +1,83 @@
+#digital-platform {
+    background: #428bca;
+    display: flex;
+    margin-bottom: -20px;
+
+    .photo {
+        margin: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .inner-content {
+        width: 75%;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .content {
+        display: flex;
+        align-self: center;
+
+        .digital-title {
+            font-family: 'effraregular';
+            font-size: 1.5rem;
+            color: #fff;
+            letter-spacing: .05rem;
+            margin-bottom: 8px;
+            margin-right: 200px;
+        }
+
+        .digital-subtitle {
+            font-family: 'effraregular';
+            color: #fff;
+        }
+
+        .digital-text {
+            font-family: 'effraregular';
+            color: #fff;
+            line-height: 1.75;
+        }
+
+        .learnbtn2 {
+            background: #fff;
+            color: #333;
+            font-family: 'effrabold';
+            font-size: 1rem;
+            padding: 10px 30px;
+            border-radius: 2px;
+            border: none;
+        }
+
+        .learnbtn2:hover {
+            background: rgb(230, 229, 229);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #digital-platform {
+        display: flex;
+        flex-direction: column;
+
+        .photo {
+            img {
+                width: 170%;
+                align-self: right;
+            }
+       
+        .content {
+            .inner-content {
+                margin-left: 50px;
+                
+                .digital-title {
+                        margin-right: 20px;
+                }
+            }
+        }       
+        }               
+    }
+}
+    

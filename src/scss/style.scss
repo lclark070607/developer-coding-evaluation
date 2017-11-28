@@ -1,6 +1,8 @@
+$text-white: #fff;
+$text-content: #545454;
 
 @import 'hero';
-@import 'values-row';
+@import 'services-row';
 @import 'logos-row';
 @import 'iot-row';
 @import 'mobile-row';
@@ -10,4 +12,5 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
