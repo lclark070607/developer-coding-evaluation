@@ -90,10 +90,18 @@
       margin: 0; }
       #connect-form .form-body .form-title {
         text-align: center; }
+      #connect-form .form-body button {
+        margin-left: 100px;
+        margin-bottom: 20px; }
     #connect-form .info {
       border-left: none;
+      border-top: 1px solid #ccc;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; }
-      #connect-form .info .iframe {
-        width: 42%; } }
+              justify-content: center;
+      text-align: center;
+      margin-right: 80px; }
+      #connect-form .info .form-title {
+        margin-top: 10px; }
+    #connect-form .iframe {
+      width: 42%; } }

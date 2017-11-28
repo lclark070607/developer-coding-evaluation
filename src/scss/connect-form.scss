@@ -108,7 +108,7 @@
     #connect-form {
         display: flex;
         flex-direction: column;
-
+        
         .form-body {
             width: 80%;
             align-items: center;
@@ -117,15 +117,28 @@
             .form-title {
                 text-align: center;
             }
+            
+            button {
+                margin-left: 100px;
+                margin-bottom: 20px;
+                
+            }
         }
 
         .info {
             border-left: none;
+            border-top: 1px solid #ccc;
             justify-content: center;
+            text-align: center;
+            margin-right: 80px;
 
-            .iframe {
-                width: 42%;
+            .form-title {
+                margin-top: 10px;
             }
+        }
+
+        .iframe {
+            width: 42%;
         }
     }
 }

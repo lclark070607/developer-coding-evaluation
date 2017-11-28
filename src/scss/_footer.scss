@@ -32,12 +32,24 @@ footer {
 }
 
 @media (max-width: 768px) {
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    
     .footer-container {
         flex-direction: column;
 
         .footer-text {
             width: 100%;
-            margin: 0;
+            margin-bottom: 10px;
+            justify-content: center;
+            font-size: .8rem;
+        }
+
+        .footer-icons {
+            padding-left: 30px;
         }
     }
+
+}
 }
